@@ -1,6 +1,6 @@
-const languages = ["C is fun", "Python is cool","JavaScript is amazing"]
-let i=0;
-while(i<3){
-    console.log(languages[i])
-    i++
+const messages = ["C is fun", "Python is cool", "JavaScript is amazing"];
+let output = "";
+for (let i = 0; i < 3; i++) {
+  output += messages[i] + "\n";
 }
+console.log(output.trim());
