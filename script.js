@@ -1,1 +1,0 @@
-let myVar = "Javascript is amazing"
