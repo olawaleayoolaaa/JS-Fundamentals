@@ -1,4 +1,6 @@
 const languages = ["C is fun", "Python is cool","JavaScript is amazing"]
-for(let i in languages){
+let i=0;
+while(i<3){
     console.log(languages[i])
+    i++
 }
