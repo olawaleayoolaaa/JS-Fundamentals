@@ -1,9 +1,11 @@
-const args = process.argv.slice(2);
-if (Number.parseInt(args[0])){
-for (let i=0;1<Number.parseInt(args[0]);i++){
-        console.log("C is fun")
-    }
-}
-else{
-    console.log("Missing number of occurrences")
+const x = parseInt(process.argv[2]);
+
+if (isNaN(x)) {
+  console.log("Missing number of occurrences");
+} else {
+  let i = 0;
+  while (i < x) {
+    console.log("C is fun");
+    i++;
+  }
 }
