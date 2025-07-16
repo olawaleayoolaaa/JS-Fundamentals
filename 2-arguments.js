@@ -1,5 +1,5 @@
 let argument;
-if (argument){
+if (argument === false){
     console.log("No argument");
 }
 else if (argument === 1){
