@@ -1,7 +1,8 @@
-const size = parseInt(process.argv[2]);
-let a;
-let b;
-function add(a,b){
-    console.log(a+b);
+function add(a, b) {
+  return a + b;
 }
-add(size[0],size[1]);
+
+const a = parseInt(process.argv[2]);
+const b = parseInt(process.argv[3]);
+
+console.log(add(a, b));
